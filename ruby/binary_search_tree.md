@@ -91,3 +91,31 @@ Per the image above, the different depth first traversal orders would yield:
 - Post: A C B E D I G K J F
 
 ### Algorithm
+<<<<<<< Updated upstream
+=======
+```ruby
+def df_inorder(node)
+  return if node.nil? # Base case, we have empty node.
+
+	df_inorder(node.left)
+	puts node
+	df_inorder(node.right)
+end
+
+def df_preorder(node)
+	return if node.nil?
+
+	puts node
+	df_preorder(node.left)
+	df_preorder(node.right)
+end
+
+def df_postorder(node)
+	return if node.nil?
+
+	df_postorder(node.left)
+	df_postorder(node.right)
+	puts node
+end
+```
+>>>>>>> Stashed changes
