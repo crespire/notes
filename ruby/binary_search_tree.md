@@ -20,7 +20,7 @@ end
 
 As an example, consider the array `[5, 7, 1, 15, 9, 2, 14, 8, 7, 3]` that would yield a tree:
 
-BST#1
+![bst1](https://user-images.githubusercontent.com/36272822/155755081-8cf4f053-88a5-4355-b939-68cf9d8ec0f8.png)
 
 Basically, starting with 5, we make nodes and insert them as children.
 
@@ -46,7 +46,7 @@ def build_tree(array)
 
 ## Level Order
 
-BST#2
+![bst2](https://user-images.githubusercontent.com/36272822/155755099-19085bc3-1b35-4a65-9862-60332c7a53c2.png)
 
 Image credit: mycodeschool on youtube.
 
@@ -80,7 +80,7 @@ Three orders that we can do our depth first traversal in.
 
 The convention with trees is usually left is lower than right, so that's where these orders come from. I imagine there may be some use cases for traveling backwards (right → left), but I can't think of any off the top of my head, so we won't cover them. The principles are the same though.
 
-BST#3
+![bst3](https://user-images.githubusercontent.com/36272822/155755122-ecf31d22-1d63-4919-947c-6b6045b13c4b.png)
 
 image credit: mycodeschool on youtube. 
 
