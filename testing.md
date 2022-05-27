@@ -31,7 +31,7 @@ For all messages sent to self, or outgoing query messages, we don't really need 
 There is some value to testing integration (in what I've learned so far, these would be so called _system_ tests in a Rails context). My personal experience is currently limited to some Rails testing content, so I will leave this here for more future notes.
 
 ### Characterization Testing
-From Jason Swett: 
+Legacy application testing, from Jason Swett: 
 
 > One of the quirks of legacy project maintenance is that the important thing isn’t to ensure correct behavior, it’s to preserve current behavior. I’ve heard of cases where a legacy project contains a bug, but users actually depend on that buggy behavior, so fixing the bug would itself be a bug.
 
