@@ -29,8 +29,6 @@ For all messages sent to self, or outgoing query messages, we don't really need 
 
 ### Integration Testing
 There is some value to testing integration (in what I've learned so far, these would be so called _system_ tests in a Rails context). My personal experience is currently limited to some Rails testing content, so I will leave this here for more future notes.
-<<<<<<< HEAD
-=======
 
 ### Characterization Testing
 From Jason Swett: 
@@ -42,4 +40,3 @@ From Jason Swett:
 > Let’s say I’m writing a characterization test for a method. First I’ll comment out the entire body of the method. Then I’ll write a test. I might not know what to assert in the test, so I’ll assert that the method will return “asdf”. I of course know that the method won’t return “asdf”, but I can run the test to see what the method really does return, then change my assertion to match that.
 
 > Once I have a test case I’ll uncomment whatever’s needed to make that test pass. In this sense I’m following the golden rule of TDD: don’t write any new code without having a test that covers it. In this case the code has already been written but that’s just kind of a technicality. I’m starting with no code (it’s all commented out) and then I’m “writing” the code by uncommenting it.
->>>>>>> 046d976 (Add notes on Characterization testing in legacy app contexts)
