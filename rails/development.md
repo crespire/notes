@@ -1,0 +1,1 @@
+While in development, `/rails/info/routes` will pull up a web version of the `rails routes` command which can be handy.
